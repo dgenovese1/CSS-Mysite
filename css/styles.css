@@ -1,0 +1,134 @@
+body {
+  color: #40514E;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #A1E3D8;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 50px auto 0 auto;
+  font-family: cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #66BFBF;
+   font-weight: normal;
+   padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  background-color: #A1E3D8;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  position:relative;
+  margin: 75px 0;
+  padding-top: 100px;
+  background-color: #C4DDFF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    float: right;
+    right: 300px;
+  }
+
+.bottom-cloud {
+    position: absolute;
+    float: left;
+    left: 150px;
+  }
+
+
+.middle-container {
+  position: relative;
+  background-color: #A1E3D82;
+}
+
+.profile_pic {
+  position: relative;
+  height: 175px;
+  width: 175px;
+  border-radius: 100%;
+}
+
+.intro {
+  width:30%;
+  margin: auto;
+}
+
+.my-skills-heading {
+  text-decoration: underline;
+  color: black;
+}
+
+.bottom-container {
+  background-color: #C4DDFF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #33dbdb;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 7px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #004a78;
+  background-image: -webkit-linear-gradient(top, #004a78, #08ff7b);
+  background-image: -moz-linear-gradient(top, #004a78, #08ff7b);
+  background-image: -ms-linear-gradient(top, #004a78, #08ff7b);
+  background-image: -o-linear-gradient(top, #004a78, #08ff7b);
+  background-image: linear-gradient(to bottom, #004a78, #08ff7b);
+  text-decoration: none;
+}
+
+.computer {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+
+  .pro {
+    text-decoration: underline;
+  }
